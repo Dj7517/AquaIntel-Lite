@@ -11,12 +11,18 @@ from utils.charts import (
 )
 
 # ── Page config ──────────────────────────────────────────────────────────────
+'''
 st.set_page_config(
     page_title=APP_TITLE,
     page_icon="💧",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+'''
+st.title("💧 AquaIntel Lite")
+st.subheader("Smart Water Intelligence Dashboard")
+
+st.write("Welcome! Your app is running successfully 🚀")
 
 # ── Custom CSS ────────────────────────────────────────────────────────────────
 st.markdown("""
