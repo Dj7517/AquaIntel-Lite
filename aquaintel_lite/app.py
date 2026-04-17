@@ -118,8 +118,15 @@ hr { border-color: #1e293b !important; }
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
+#def load_default_data() -> pd.DataFrame:
+#   return pd.read_csv("data/sample_data.csv")
+import os
+
 def load_default_data() -> pd.DataFrame:
-    return pd.read_csv("data/sample_data.csv")
+    BASE_DIR = os.path.dirname(__file__)
+    file_path = os.path.join(BASE_DIR, "data", "sample_data.csv")
+    return pd.read_csv(file_path)
+
 
 
 def render_alert(alert: dict):
