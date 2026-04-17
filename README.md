@@ -1,1 +1,1 @@
-AquaIntel Lite is a data-driven web application designed to monitor, analyze, and generate insights from water-related datasets. The system leverages data science and machine learning techniques to support smarter decision-making for water management and sustainability.# AquaIntel-Lite
+ #AquaIntel-Lite
